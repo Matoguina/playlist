@@ -1,0 +1,49 @@
+body {
+margin: 0;
+background: linear-gradient(135deg, #3287db, #1954b3, #04327d);
+font-family:sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 800px;
+color: white;
+}
+.player {
+background: rgba(0,0,0,0.20);
+padding: 30px 40px;
+border-radius: 20px;
+box-shadow: 20px 20px 10px rgba(0,0,0,0.50);
+width: 320px;
+text-align: center;
+}
+
+.player h1 {
+ font-size:35px;
+ margin-bottom: 5px;
+p}
+   
+.photo{
+width: 250px;
+max-width: 280px;
+border-radius: 15px;
+border-style:solid;
+border-color:black;
+margin-bottom: 25px;
+object-fit: cover;
+}
+  
+  #time-container {
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: #cbd7f0;
+    user-select: none;
+}
+
+audio {
+width: 250px;
+outline: none;
+border-radius: 10px;
+}
